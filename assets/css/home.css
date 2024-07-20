@@ -1,0 +1,175 @@
+body{
+   
+    background-color: w;
+
+}
+.container{
+    width: 10%;
+    margin-left: 100px;
+}
+.main{
+    margin-left:200px ;
+    width: 1000px;
+    margin-top: 250px;
+    height: 700px;
+    border-radius: 12px ;
+    border:2px solid ;
+    box-shadow: 5px 10px;
+}
+
+.header-left{
+    width:210px;
+    height:60px;  
+}
+
+.header-left img{
+    width:150px;
+    height:80px;
+    margin-left:10px;
+    margin-top: -15px;
+}
+
+tr{
+   background color:#70bd95 ;
+}
+.topnav a{
+    padding: 25px 15px;
+    
+     display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 15px;
+    font-size: 10px;
+    color: #000;
+    padding-left: 10px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+
+}
+.topnav{
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background:#fff;
+    
+}
+.submenu {
+    float: right;
+    margin-right: 70px;
+    overflow: hidden;
+    margin-top:2px;
+
+}
+.panel{
+    margin-top:60px;
+   margin-left: 180px;
+}
+.tile{
+   background-color:plum;
+    height: 150px;
+    width: 250px;
+    color:white;
+    margin-left: 100px; 
+     margin-top:90px;
+}
+.tile2{
+   background-color:skyblue;
+   margin-left: 500px;
+   margin-top: -150px;
+    height: 150px;
+    width: 250px;
+    color:white;  
+}
+.tile3{
+   background-color:blue;
+    height: 150px;
+    width: 250px;
+    color:white; 
+    margin-left:800px; 
+    margin-top:-150px; 
+}
+.submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+
+.submenu-content a {
+    float: none;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-content a:hover {
+    background-color: #4B99AD;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.arrow {
+font-size:11px;
+
+}
+.active{
+    background-color: ;
+}
+
+
+.header-left{
+    width:210px;
+    height:120px;  
+}
+
+.header-left img{
+    width:150px;
+    height:80px;
+    margin-left:30px;
+    margin-top: -4px;
+}
+.header-left h2{
+    margin-left:2px;
+    margin-top:-2px;
+   
+}
+
+
+.footer{
+    margin-top: 250px;
+    background-color: #4B99AD;
+    height: 60px;
+}
+input[type=text],textarea{
+    width:50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+}
+
+input[type=submit] {
+    background-color: #4B99AD;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 90px;
+    width: 30%;
+    margin-top: 40px;
+}
+.create{
+    margin-left: 300px;
+}
+textarea{
+    height: 200px;
+}
+
+h5{
+    color: red;
+}

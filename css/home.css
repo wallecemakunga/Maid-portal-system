@@ -1,0 +1,151 @@
+.container{
+    width: 100%;
+
+}
+
+
+
+
+..main{
+    margin-left:300px ;
+    width: 1000px;
+    margin-top: 50px;
+    height: 900px;
+    border-radius: 12px ;
+    border:2px solid ;
+    box-shadow: 5px 10px;
+
+}
+
+.top a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: #000;
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 1);
+    
+}
+.one{
+    height:20px;
+    width: 90%;
+    float: right;
+    margin-top: -100px;  
+}
+.two{
+  height: 200px;
+}
+.active{
+    background-color: ;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+#dot{
+    margin-left: 630px;
+    margin-top: 200px;
+}
+
+.header-left{
+    width:210px;
+    height:40px;  
+}
+
+.header-left img{
+    width:150px;
+    height:80px;
+    margin-left:130px;
+    margin-top: 5px;
+}
+
+
+.submenu {
+    float: right;
+    margin-right: 120px;
+    overflow: hidden;
+
+}
+
+
+.submenu-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+
+.submenu-content a {
+    float: none;
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.submenu-content a:hover {
+    background-color: #4B99AD;
+}
+
+.submenu:hover .submenu-content {
+    display: block;
+}
+
+.arrow {
+font-size:11px;
+
+}
+.slides-container{
+    width:80%;
+    height:120px;
+    margin-left:180px;
+    margin-top: 180px;
+}
+
+.content-right{
+width:400px; 
+height:350px; 
+float:right;  
+text-align:center;
+margin-top: px;
+margin-right: 50px;
+}
+
+.content-left {
+    width: 500px;
+    height: 504px;
+    float: left;
+    margin-top: 4px;
+    margin-left: 290px;
+}
+.content-right img{
+height:120px;
+width: 50px;
+}
+
+ ul {
+    list-style-type: circle;
+    margin-left:20px;
+    margin-top:140px;
+    color: black;
+}
+
+ li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer{
+    
+    background-color: #4B99AD;
+    height: 120px;
+}

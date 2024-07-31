@@ -40,7 +40,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `Full_Name`, `username`, `password`, `usertype`) VALUES
-(1, 'angelina', 'angelina', 'e807f1fcf82d132f9bb018ca6738a19f', 'admin');
+(1, 'admin', 'wallace makunga', 'e807f1fcf82d132f9bb018ca6738a19f', 'admin');
 
 -- --------------------------------------------------------
 
